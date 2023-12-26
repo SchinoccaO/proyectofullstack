@@ -1,0 +1,42 @@
+/* 1. Seleccionamos sleector de etiquetas: 
+ de taq (a todo el contenido del boy le dare este estilo*/
+header{
+    background-color: white ;
+}
+
+.nav-link{
+    background-color:#002849 !important;
+    color: white;
+}
+.nav.nav.p-2{
+    background-color: #002849;
+}
+.nav-link:hover{
+    color:hsl(172, 100%, 79%);
+}
+
+
+h1{
+    
+}
+
+
+h2{
+    color: rgb(26, 204, 26);
+}
+
+
+/* 2. Seleccion por clase*/ 
+
+.tituliAmarillo{
+    color: yellow;
+}
+
+/*aca pongo el nombre de la etiqueta y el estilo. Se puede reutilizar la clase, en un parrafo por ej */
+.fiatAmarillo{
+    color: pink;
+}
+
+/*Seleccion de id* TOCAMOS UN ELEMENTO POR UNICA VEZ. /
+#parrafoAzul{
+    color: blue;

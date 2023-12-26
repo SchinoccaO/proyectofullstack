@@ -1,0 +1,99 @@
+/* reseteo de css*/
+
+/* implioca tpdas ñas estiquetas */
+
+header{
+    background-color: white ;
+}
+
+.nav-link{
+    background-color:#002849 !important;
+    color: white;
+}
+.nav.nav.p-2{
+    background-color: #002849;
+}
+.nav-link:hover{
+    color:hsl(172, 100%, 79%);
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color:#9C89CD;
+}
+
+div{
+    border: solid 1px black;
+    inline-size: 350px;
+    
+    text-align: center;
+
+    /* float: right;*/
+}
+
+.padre{
+    display: flex;
+    /* por default: por columna es una abajo del otro, no hace falta ponerlo si lo quierio asi */
+    justify-content: center; /*justifca los contenidos en el centro, SIEMRPE apuntando al padre*/
+}
+    /*wrap: pegar un salto cuando tengas una caracteristica especifica, no enrta otro obj a tu derecha. 
+
+
+/*flex: primer section, crea uyna fila*/
+
+
+
+li{
+    list-style: none;
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+button{
+    padding: 15px;
+    margin-top: 12px;
+}
+
+/*creo una clase generica*/
+.sinDeco{
+    text-decoration: none;
+}
+
+
+/*hovver pasar el mouse por el elemento*/
+button:hover{
+    background-color: green;
+    color: white
+}
+
+button a{
+    text-decoration: none;
+    color: pink;
+}
+
+h3, h4{
+    margin: 12px;
+}

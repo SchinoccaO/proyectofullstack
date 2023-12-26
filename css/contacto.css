@@ -1,0 +1,18 @@
+header{
+    background-color: white ;
+}
+
+.nav-link{
+    background-color:#002849 !important;
+    color: white;
+}
+.nav.nav.p-2{
+    background-color: #002849;
+}
+.nav-link:hover{
+    color:hsl(172, 100%, 79%);
+}
+
+h1{
+    
+}
